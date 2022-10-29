@@ -1,0 +1,129 @@
+@media screen and (max-width:1200px) {}
+
+@media screen and (max-width:992px) {
+
+    header nav .nav-menu,
+    .social-icons {
+        display: none;
+    }
+
+    .ham-burger {
+        display: block;
+    }
+    .phone-menu {
+        display: block;
+    }
+    .about-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .col-4 {
+        width: 90%;
+    }
+
+    header nav .logo {
+        margin-top: 1rem;
+        margin-left: 1rem;
+        width: 100px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    #about .about-content img {
+        width: 100%;
+    }
+
+    #fact .facts-content .number {
+
+        flex-direction: column;
+    }
+
+    #fact .facts-content .number div:nth-child(2) {
+        margin: 1rem 0;
+    }
+
+    #fact::before {
+
+        height: 650px;
+
+    }
+
+    #client .client-content {
+
+        flex-direction: column;
+    }
+
+    #contact .contact-inner {
+
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #contact .contact-inner .right-side {
+        width: 100%;
+    }
+
+    #contact .contact-inner .left-side {
+        width: 100%;
+    }
+
+    .col-4 {
+        width: 80%;
+    }
+
+    #contact .contact-inner .left-side {
+        padding: 2rem 0;
+    }
+
+    #form form {
+        flex-direction: column;
+    }
+
+    #form form .input-inner {
+        width: 100%;
+    }
+
+    #form form .textaera-msg {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    h1 {
+        margin: 1rem 10px;
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width:576px) {
+    #contact h1 {
+        margin: 0 38px;
+        font-size: 2rem;
+    }
+
+    footer p {
+        margin-top: 2rem;
+        line-height: 190%;
+    }
+
+    footer {
+
+        padding: 2rem;
+    }
+
+    footer ul li {
+        display: block;
+        margin: 20px 0;
+    }
+
+    #about .about-text {
+        color: #3a3a3a;
+        line-height: 200%;
+        font-size: 0.90rem;
+    }
+}
+
+@media screen and (max-width:1200px) {}
+
+@media screen and (max-width:1200px) {}
